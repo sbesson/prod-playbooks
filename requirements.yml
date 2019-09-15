@@ -64,9 +64,6 @@
 - src: ome.omero_web_django_prometheus
   version: 0.2.1
 
-- src: openmicroscopy.postgresql
-  version: 2.0.0
-
 - src: ome.postgresql
   version: 3.2.0
 
@@ -79,7 +76,7 @@
 - src: ome.prometheus_jmx
   version: 0.2.1
 
-- src: openmicroscopy.prometheus_node
+- src: ome.prometheus_node
   version: 0.2.1
 
 - src: ome.prometheus_postgres
