@@ -45,7 +45,7 @@
 
     - role: ome.versioncontrol_utils
 
-    - role: ome.nfs-mount
+    - role: ome.nfs_mount
 
     - role: ome.omero_server
 
