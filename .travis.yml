@@ -10,13 +10,13 @@ script:
   - molecule test -s $SCENARIO
 
 env:
-  - SCENARIO=bootstrap
-  - SCENARIO=jupyterhub
-  - SCENARIO=k8s-postgres
-  - SCENARIO=nightshade-webclients
-  - SCENARIO=ome-demoserver
-  - SCENARIO=ome-dundeeomero
-  - SCENARIO=omero-training-server
-  - SCENARIO=release
-  - SCENARIO=web-proxy
+  # - SCENARIO=bootstrap
+  # - SCENARIO=jupyterhub
+  # - SCENARIO=k8s-postgres
+  # - SCENARIO=nightshade-webclients
+  # - SCENARIO=ome-demoserver
+  # - SCENARIO=ome-dundeeomero
+  # - SCENARIO=omero-training-server
+  # - SCENARIO=release
+  # - SCENARIO=web-proxy
   - SCENARIO=www
