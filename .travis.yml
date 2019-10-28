@@ -3,7 +3,7 @@ sudo: required
 language: python
 
 install:
-  - pip install "ome-ansible-molecule<0.5"
+  - pip install "ome-ansible-molecule<0.5" testinfra==3.2.0
   - pip install jmespath
 
 script:
